@@ -5,10 +5,10 @@ fun main () {
     //Raio metade do diametro
 
     println("Digite o diametro")
-    var diametro = readln().toDouble()
+    val diametro = readln().toDouble()
 
-    var pi = 3.14
-    var d2 = diametro * diametro
+    val pi = 3.14
+    val d2 = diametro * diametro
 
     println("A area do Diametro é: ${pi * (d2/4)}")
 
