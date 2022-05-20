@@ -18,6 +18,9 @@ fun main (){
           println("$num não é divisor por 3")
             conN--
         }
+        else if(num <=0) {
+            conN--
+        }
 
 
 
